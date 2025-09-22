@@ -1,41 +1,84 @@
-# Prerequisites
-*.d
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio cache/options directory
+.vs/
 
-# Precompiled Headers
-*.gch
-*.pch
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Build artifacts
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+*.swp
+*.tmp
 
-# debug information files
-*.dwo
+# NuGet packages
+*.nupkg
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary
+#!**/[Pp]ackages/repositories.config
+
+# Azure
+PublishProfiles/
+*.azurePubxml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Others
+*.bak
+*.orig
+*.tmp
+*.vsmdi
+*.testsettings
+TestResults/
+*.VisualState.xml
+*.ncrunchsolution
+*.ncrunchproject
+*.nunit
+*.coverage
+*.coveragexml
+*.opendb
+
+# DotCover
+.idea/.idea.*.dotCover
+
+# TFS
+$tf/
+
+# Others
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+node_modules/
